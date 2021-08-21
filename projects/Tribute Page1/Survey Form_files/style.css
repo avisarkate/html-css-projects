@@ -1,0 +1,44 @@
+
+body{
+  background-color: rgb(191, 216, 79);
+}
+
+
+
+
+.form{
+  margin: 20px 0;
+}
+
+.main-container{
+  /* margin: 10px 2s0px; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 800px;
+  position: relative;
+    left: 179px;
+    font-family: 'Anaheim';
+    background-color: white;
+}
+.container1 h2{
+  text-align: center;
+}
+.second{
+  margin: 10px 0;
+}
+.third{
+  margin: 10px 0;
+}
+.lastbutton {
+  text-align: center;
+  margin: 20px 0;
+}
+button{
+  height: 50px;
+  background-color: red;
+  color: white;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-size: 17px;
+  border: 0;
+}

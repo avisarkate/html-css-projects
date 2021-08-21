@@ -1,0 +1,45 @@
+body{
+  background-color: lightskyblue;
+}
+
+.main-container{
+  border:0;
+  background-color:ghostwhite;
+  width: 71%;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+h1{
+  text-align: center;
+}
+p{
+  font-size: 25px;
+  padding: 21px 105px;
+}
+ 
+.itemA{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin: 20px 0;
+}
+.left{
+  width: 50%;
+  text-align: right;
+}
+.right{
+  width: 50%;
+  text-align:left;
+}
+
+button{
+  margin: 20px 343px;
+  height: 40px;
+  width: 20%;
+  border: 0;
+  border-radius: 10px;
+  background-color: lightskyblue;
+
+}
+

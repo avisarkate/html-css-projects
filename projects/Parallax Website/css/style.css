@@ -1,0 +1,53 @@
+
+ *{
+   margin: 0;
+   padding: 0;
+ }
+.block1 , .block7, .block5 , .block3 {
+  background-image: url(/greece.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  opacity: 0.5;
+}
+  h1 , h2{
+   text-align: center;
+   
+  }
+
+  p{
+    line-height: 1.5;
+    font-size: 20px;
+    /* background-color: lightgrey; */
+  }
+
+  .block2 , .block4 , .block6 {
+    background-color: lightgrey;
+    padding: 20px;
+  }
+
+  .block3{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(/image.jpeg);
+    background-size: cover;
+    height: 600px;
+  }
+
+  .block5{
+    background-image: url(/code.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .para1 {
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: black;
+    
+  }

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5504/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  
+<link rel="stylesheet" href="./Landing Page_files/style.css"></head>
+
+<body>
+  <div class="block1">
+    <div class="top">
+      <h1>Welcome to Acme Web Solutions</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dignissimos sapiente provident accusamus
+        maxime?
+        Quaerat sequi modi impedit nostrum tempore!</p>
+      <button>Read More</button>
+    </div>
+  </div>
+  <div class="block2">
+    <h1>Web &amp; Application Development</h1>
+    <div class="para">
+      <div class="left">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, voluptatibus. Ad veritatis aliquam natus
+          debitis saepe tempore eligendi dolorum voluptatibus.</p>
+      </div>
+      <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam unde quod aliquam laborum
+        voluptatem laboriosam ratione veritatis modi suscipit commodi.</div>
+    </div>
+
+  </div>
+  <div class="block3">
+    <div class="itemA">
+      <img src="./Landing Page_files/pic1.jpeg" alt="" width="300px" height="300px">
+      <h2>Web Development
+      </h2>
+      <p class="jenn">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente cumque sunt ex, repellendus minima.
+        Iusto facere veritatis sint provident.</p>
+    </div>
+    <div class="itemB">
+      <img src="./Landing Page_files/mobile.jpeg" alt="" width="300px" height="300px">
+      <h2>Mobile Applications</h2>
+      <p class="jenn">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos numquam cum voluptatum aliquam?
+        Cupiditate
+        dolorum tempore quasi reiciendis quis pariatur.</p>
+    </div>
+
+    <div class="itemC">
+      <img src="./Landing Page_files/pic3.jpeg" alt="" width="300px" height="300px">
+      <h2>Mobile Applications</h2>
+      <p class="jenn">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos numquam cum voluptatum aliquam?
+        Cupiditate
+        dolorum tempore quasi reiciendis quis pariatur.</p>
+    </div>
+   
+  </div>
+
+
+
+
+  <div class="block4">
+    <h2>We handle all of your digital needs</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, pariatur similique. <br>  Distinctio dolorem
+      debitis voluptates aliquid fugit hic iste optio.</p>
+  </div>
+
+
+     <div class="end">
+  <div class="block5">
+    <div class="itemD">
+      <h2>Contact Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, asperiores quo officia dignissimos nam
+      molestiae! Libero minima dolores temporibus incidunt!</p> </div> <br>
+
+      <div class="itemE">
+    <p>contact@acmewebsolutions.test</p> </div> 
+  </div>
+
+  <div class="block6">
+    <h2>About Our Company</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In at, dolorum veritatis autem veniam quia quos
+      quibusdam velit doloribus, quidem praesentium blanditiis similique debitis itaque recusandae. Sint facere eum
+      quisquam.</p>
+  </div>
+     </div>
+
+
+  <div class="last">
+    <div class="block7">
+      <h2>Acme Web Solutions</h2>
+    </div>
+    <div class="block8">
+      <h2>Project By <a href="https://traversymedia.com/">Traversy Media</a> </h2>
+    </div>
+  </div>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

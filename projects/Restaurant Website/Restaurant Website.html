@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="./Restaurant Website_files/style.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="box1">TACOS</div>
+    <div class="box2">BEERS</div>
+    <div class="box3">WINES</div>
+    <div class="box4">DESSERTS</div>
+    <div class="box5">RESERVATIONS</div>
+  </div>
+
+  <div class="box">
+    <div class="left">
+      <img src="./Restaurant Website_files/image.jpeg" alt="" width="700px" height="510px"> 
+      <div class="text1">Terry's Taco Joint</div>
+      <div class="text2">Pretty Good Tacos!</div>
+    </div>
+
+    <div class="right">
+      <div class="item1">
+        <h1>$1.99</h1>
+        <p>Tacos</p>
+      </div>
+      <div class="item2">
+        <h1>$3.99</h1>
+        <p>Kombucha</p>
+      </div>
+    </div>
+      
+  </div>
+
+  <div class="label">
+
+    <div class="col1">
+      <img src="./Restaurant Website_files/pica.jpeg" alt="taco" width="70px" height="70px">
+      <h4>Tacos</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+    </div>
+
+    <div class="col1">
+      <img src="./Restaurant Website_files/pic2.jpeg" alt="" width="70px" height="70px">
+      <h4>Beer</h4>
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
+    </div>
+
+    <div class="col1">
+      <img src="./Restaurant Website_files/pic3.jpeg" alt="" width="70px" height="70px">
+      <h4>Wine</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda</p>
+    </div>
+
+    <div class="col1">
+      <img src="./Restaurant Website_files/pic4.jpeg" alt="" width="70px" height="70px">
+      <h4>Music</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda</p>
+    </div>
+
+  </div>
+
+  <div class="mid">
+     <div class="taco">
+       <img src="./Restaurant Website_files/taco.jpeg" alt=" " width="500px" height="300px">
+     </div>
+     <div class="jazz">
+       <div class="para">
+         <h2>Featured Taco</h2> <br>
+         <p>Slim Profile, easy to hold and loaded with cheese.</p>
+         <p>This is the one you have been waiting for</p> <br> 
+         <p id="learn">Learn More →</p>
+       </div>
+     </div>
+  </div>
+
+  <div class="mida">
+    <h2>Instant Grams</h2>
+  </div>
+  
+
+  <div class="gallery1">
+
+    <div class="pic1">
+      <img src="./Restaurant Website_files/image5.jpeg" alt="" width="200px" height="200px">
+    </div>
+    <div class="pic1">
+      <img src="./Restaurant Website_files/image2.jpeg" alt="" width="200px" height="200px">
+    </div>
+    <div class="pic1">
+      <img src="./Restaurant Website_files/image3.jpeg" alt="" width="200px" height="200px">
+    </div>
+    <div class="pic1">
+      <img src="./Restaurant Website_files/image4.jpeg" alt="" width="200px" height="200px">
+    </div>
+    <div class="pic1">
+      <img src="./Restaurant Website_files/image5.jpeg" alt="" width="200px" height="200px">
+    </div>
+  </div>
+
+  <div class="gallery2">
+    <div class="pics1">
+      <img src="./Restaurant Website_files/pics1.jpeg" alt="" width="200px" height="200px">
+    </div>
+    <div class="pics1">
+      <img src="./Restaurant Website_files/pics2.jpeg" alt="" width="200px" height="200px">
+    </div>
+    <div class="pics1">
+      <img src="./Restaurant Website_files/pics3.jpeg" alt="" width="200px" height="200px">
+    </div>
+    <div class="pics1">
+      <img src="./Restaurant Website_files/pics4.jpeg" alt="" width="200px" height="200px">
+    </div>
+    <div class="pics1">
+      <img src="./Restaurant Website_files/pics5.jpeg" alt="" width="200px" height="200px">
+    </div>
+  </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

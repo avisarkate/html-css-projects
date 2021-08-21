@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block1 {
+  background-image: url(/image.jpeg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  padding: 20px;
+  background-color: gray;
+}
+button:hover {
+  background-color: white;
+  /* transition: 2s; */
+  cursor: pointer;
+}
+
+.para {
+  display: flex;
+  line-height: 1.5;
+  padding: 30px;
+}
+
+.left,
+.right {
+  margin-right: 20px;
+}
+
+.block2 {
+  padding: 20px;
+  background-color: lavenderblush;
+}
+
+.block3 {
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 95%; */
+  word-wrap: break-word;
+  padding: 10px 100px;
+  background-color: black;
+}
+.itemA img,
+.itemB img,
+.itemC img {
+  object-fit: cover;
+  /* padding: 10px; */
+  width: 100%;
+}
+.itemA,
+.itemB,
+.itemC {
+  width: 30%;
+  text-align: center;
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+.jenn {
+  line-height: 1.5;
+  font-size: 19px;
+  padding: 20px 30px;
+}
+
+.block4 {
+  background-color: white;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.end {
+  display: flex;
+  color: white;
+}
+
+.block5 {
+  background-color: rgb(14, 179, 235);
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 10px;
+  width: 50%;
+}
+.block6 {
+  background-color: rgb(88, 177, 28);
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* justify-items: center; */
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 10px;
+  width: 50%;
+}
+.last {
+  display: flex;
+}
+.block7,
+.block8 {
+  color: white;
+  background-color: black;
+  width: 50%;
+}
+a {
+  text-decoration: none;
+}
